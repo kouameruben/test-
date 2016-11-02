@@ -5231,7 +5231,7 @@ Titres
 	Fin
 	Titre
 		Type=0
-		Libellé=J.4 
+		Libellé=J.4
 		Première=354
 	Fin
 	Titre
@@ -5241,7 +5241,7 @@ Titres
 	Fin
 	Titre
 		Type=0
-		Libellé=J.6 Quels indicateurs de performance sont mésurés en continu par la centrale d'achat?  
+		Libellé=J.6 Quels indicateurs de performance sont mésurés en continu par la centrale d'achat? 
 		Première=358
 	Fin
 	Titre
@@ -5256,7 +5256,7 @@ Titres
 	Fin
 	Titre
 		Type=0
-		Libellé=K.1 Quel est le nombre de personnel des catégories professionnelles suivants impliqué dans les activités d'achat et d'approvisionnement 
+		Libellé=K.1 Quel est le nombre de personnel des catégories professionnelles suivants impliqué dans les activités d'achat et d'approvisionnement
 		Première=372
 	Fin
 	Titre
@@ -5268,6 +5268,11 @@ Titres
 		Type=0
 		Libellé=K.3
 		Première=407
+	Fin
+	Titre
+		Type=0
+		Libellé=FIN 
+		Première=409
 	Fin
 Fin
 Options
