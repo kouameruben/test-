@@ -1,0 +1,5277 @@
+Version=5008
+Entête
+	Historique=5.0.0.82(IUT TC - AIX EN;
+	Langue=FR
+	Titre=Questionaire 5.1
+	StadePanneau=10
+Fin
+Questions
+	Question
+		Libellé=E.5 Le parc automobile de la centrale est-il adéquat pour la collecte/distribution des médicaments et autres produits de santé ?
+		Variable=E-5
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=E-5-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=E.6 En général, les commandes sont-elles livrées aux clients dans les délais ?
+		Variable=E-6
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=E-6-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Manque de véhicule
+		Variable=E-7-a
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; NON ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si E-6 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Ordre de priorité
+		Variable=E-7-a-1
+		Type=5
+		NbModalités=3
+		Modalités=1 ; 2 ; 3 ;
+		Pondérations= 0
+		Consigne=Numéroter de 1 ( + important) à 3
+		Plan=1
+		Attributs=224
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=E-7-a-2
+		Type=6
+		NbLignes=1
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-6 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Mauvais état des véhicules
+		Variable=E-7-b
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; NON ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si E-6 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Ordre de priorité
+		Variable=E-7-b-1
+		Type=5
+		NbModalités=3
+		Modalités=1 ; 2 ; 3 ;
+		Pondérations= 0
+		Consigne=Numéroter de 1 ( + important) à 3
+		Plan=1
+		Attributs=224
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=E-7-b-2
+		Type=6
+		NbLignes=1
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-6 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Coût élevé du tansport
+		Variable=E-7-c
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; NON ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si E-6 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Ordre de priorité
+		Variable=E-7-c-1
+		Type=5
+		NbModalités=3
+		Modalités=1 ; 2 ; 3 ;
+		Pondérations= 0
+		Consigne=Numéroter de 1 ( + important) à 3
+		Plan=1
+		Attributs=224
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=E-7-c-2
+		Type=6
+		NbLignes=1
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-6 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Manque de chauffeur
+		Variable=E-7-d
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; NON ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si E-6 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Ordre de priorité
+		Variable=E-7-d-1
+		Type=5
+		NbModalités=3
+		Modalités=1 ; 2 ; 3 ;
+		Pondérations= 0
+		Consigne=Numéroter de 1 ( + important) à 3
+		Plan=1
+		Attributs=224
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=E-7-d-2
+		Type=6
+		NbLignes=1
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-6 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Réseau routier dangereux
+		Variable=E-7-e
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; NON ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si E-6 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Ordre de priorité
+		Variable=E-7-e-1
+		Type=5
+		NbModalités=3
+		Modalités=1 ; 2 ; 3 ;
+		Pondérations= 0
+		Consigne=Numéroter de 1 ( + important) à 3
+		Plan=1
+		Attributs=224
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=E-7-e-2
+		Type=6
+		NbLignes=1
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-6 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Distance importante à parcourir
+		Variable=E-7-f
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; NON ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si E-6 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Ordre de priorité
+		Variable=E-7-f-1
+		Type=5
+		NbModalités=3
+		Modalités=1 ; 2 ; 3 ;
+		Pondérations= 0
+		Consigne=Numéroter de 1 ( + important) à 3
+		Plan=1
+		Attributs=224
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=E-7-f-2
+		Type=6
+		NbLignes=1
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-6 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Problèmes climatiques
+		Variable=E-7-h
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; NON ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si E-6 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Ordre de priorité
+		Variable=E-7-h-1
+		Type=5
+		NbModalités=3
+		Modalités=1 ; 2 ; 3 ;
+		Pondérations= 0
+		Consigne=Numéroter de 1 ( + important) à 3
+		Plan=1
+		Attributs=224
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=E-7-h-2
+		Type=6
+		NbLignes=1
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-6 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Autres , à préciser
+		Variable=E-7-i
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-6 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Ordre de priorité
+		Variable=E-7-i-1
+		Type=5
+		NbModalités=3
+		Modalités=1 ; 2 ; 3 ;
+		Pondérations= 0
+		Consigne=Numéroter de 1 ( + important) à 3
+		Plan=1
+		Attributs=224
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=E-7-i-2
+		Type=6
+		NbLignes=1
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-6 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-6 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=2
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=E.8 Existe-il un système de distribution spécifique pour les produits financé par les partenaires?
+		Variable=E-8
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=E-8-1
+		Type=6
+		NbLignes=1
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Catégorie de prduits
+		Variable=E-9-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-8 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-8 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=28
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui , décrivez brièvement le système de distribution
+		Variable=E-9-1-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-9-1 = <Réponse effective>
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-9-1 <> ' '
+			Filtre
+				Opérateur=-1
+				Variable=30
+				Compris=2
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Catégorie de prduits
+		Variable=E-9-2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-8 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-8 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=28
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui , décrivez brièvement le système de distribution
+		Variable=E-9-2-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-9-2 = <Réponse effective>
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-9-1 <> ' '
+			Filtre
+				Opérateur=-1
+				Variable=32
+				Compris=2
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Catégorie de prduits
+		Variable=E-9-3
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-8 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-8 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=28
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui , décrivez brièvement le système de distribution
+		Variable=E-9-3-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-9-2 = <Réponse effective>
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-9-1 <> ' '
+			Filtre
+				Opérateur=-1
+				Variable=32
+				Compris=2
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Catégorie de prduits
+		Variable=E-9-4
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-8 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-8 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=28
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui , décrivez brièvement le système de distribution
+		Variable=E-9-4-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-9-4 = <Réponse effective>
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-9-1 <> ' '
+			Filtre
+				Opérateur=-1
+				Variable=36
+				Compris=2
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Catégorie de prduits
+		Variable=E-9-5
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-8 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-8 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=28
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui , décrivez brièvement le système de distribution
+		Variable=E-9-5-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si E-9-5 = <Réponse effective>
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=E-9-5 <> ' '
+			Filtre
+				Opérateur=-1
+				Variable=38
+				Compris=2
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=a.Produits enregistrés dans le pays (AMM)
+		Variable=F-1-a
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-1-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=b.Produits présélectionnés lors de la sélection des fournisseurs
+		Variable=F-1-b
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-1-b-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=c.Produits pré-qualifiés par l'OMS
+		Variable=F-1-c
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-1-c-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=d.Produits enregistrés dans un pays à haute réglementation pharmaceutique (ICP/ICH)
+		Variable=F-1-d
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-1-d-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=f. Autres , à préciser
+		Variable=F-1-f
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-1-f-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Critèteres de qualité (Médicaments essentiels sur 15 produits sélectionnés)
+		Variable=F-2-a
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-2-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Critèteres de qualité (Antirétroviraux pour kles ARVs de 1ére ligne)
+		Variable=F-2-b
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-2-b-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Critèteres de qualité (Antipaludéens ACT)
+		Variable=F-2-c
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-2-c-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=F.3 Des côntroles  de qualité sont-ils effectués systématiquement sur un échantillon de chaque lot de produits
+		Variable=F-3-a
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-3-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=F.4 Si oui , quel est le pourcentage de produits non conformes enregistrés en 2014?
+		Variable=F-4-a
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=96
+	Fin
+	Question
+		Libellé=F.5 Quelles sont les principales causes de non conformité
+		Variable=F-5
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=a. Le labaratoire de côntrole de qualité des produits d'achat
+		Variable=F-6-a
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-6-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=b. Le labaratoire national de côntrole de qualité
+		Variable=F-6-b
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-6-b-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=c. Le labaratoire sous-régionale de côntrole de qualité
+		Variable=F-6-c
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-6-c-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=d. Le labaratoire extérieur
+		Variable=F-6-d
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-6-d-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=a. Pré-qualifié par l'OMS ?
+		Variable=F-7-a
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-7-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=b. Accrédité conformément à l'ISO17025 ou EN45002 ?
+		Variable=F-7-b
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-7-b-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=c. Accepté par une autorité de réglementation ICP/ICH
+		Variable=F-7-c
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-7-c-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=F.8 Une inspection pharmaceutique a-t-elle été réalisée à  la central d'achat au cours des 3 derniére années ?
+		Variable=F-8-a
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-8-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Précisez l'année
+		Variable=F-8-a-2
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Consigne=La question n'est pertinente que si F-8-a = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=F-8-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=74
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Précisez les 3 principaux résultats positifs et négatifs
+		Variable=F-8-a-3
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Consigne=La question n'est pertinente que si F-8-a = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=F-8-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=74
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Sélection des produits
+		Variable=F-9-a
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Quantification des besoins
+		Variable=F-9-b
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-b-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Achat
+		Variable=F-9-c
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-c-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Passation de commande
+		Variable=F-9-d
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-d-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Réception
+		Variable=F-9-e
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-e-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Stockage
+		Variable=F-9-f
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-f-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Gestion de stock
+		Variable=F-9-g
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-g-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Inventaire
+		Variable=F-9-h
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-h-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Destruction des périmés/avaries
+		Variable=F-9-i
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-i-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Retour produits
+		Variable=F-9-j
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-j-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Redistribution des produits en surstock
+		Variable=F-9-k
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-k-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Distribution
+		Variable=F-9-l
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-l-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Dispensation
+		Variable=F-9-m
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-m-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Assurance qualité
+		Variable=F-9-n
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-n-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Gestion financière
+		Variable=F-9-o
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-o-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Suivi/évaluation/supervision
+		Variable=F-9-p
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-p-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Formation
+		Variable=F-9-q
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-q-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Recrutement du personnel
+		Variable=F-9-r
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; NA ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-r-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Autres, à préciser
+		Variable=F-9-s
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=F-9-s-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=STGs
+		Variable=G-1-a
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=G-1-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Formulaires thérapeutiques
+		Variable=G-1-b
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=G-1-b-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Vidal/Nomenclature Nationale
+		Variable=G-1-c
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=G-1-c-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Information des laboratoires
+		Variable=G-1-d
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=G-1-d-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Recherche sur le web
+		Variable=G-1-e
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=G-1-e-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Autres, à préciser
+		Variable=G-1-f
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=G-1-f-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=H. FINANCEMENT
+		Variable=H- FINANCEMENT
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Sources de financement
+		Variable=H-1-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Dépenses 2015 en US$
+		Variable=H-1-a-2
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Budget 2016 en US$
+		Variable=H-1-a-3
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Budget total 2016 (%  budget 2016)
+		Variable=H-1-a-4
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Type de financement
+		Variable=H-1-a-5
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Sources de financement€(Etat, population, Fonds mondial, MSF...)
+		Variable=H-1-b-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Dépenses 2015 en US$
+		Variable=H-1-b-2
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Budget 2016 en US$
+		Variable=H-1-b-3
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Budget total 2016  (%  budget 2016)
+		Variable=H-1-b-4
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Type de financement (Recouvrement des coûts, prêt, subvention...)
+		Variable=H-1-b-5
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Sources de financement€(Etat, population, Fonds mondial, MSF...)
+		Variable=H-1-c-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Dépenses 2015 en US$
+		Variable=H-1-c-2
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Budget 2016 en US$
+		Variable=H-1-c-3
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Budget total 2016  (%  budget 2016)
+		Variable=H-1-c-4
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Type de financement (Recouvrement des coûts, prêt, subvention...)
+		Variable=H-1-c-5
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Sources de financement (Etat, population, Fonds mondial, MSF...)
+		Variable=H-1-d-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Dépenses 2015 en US$
+		Variable=H-1-d-2
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Budget 2016 en US$
+		Variable=H-1-d-3
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Budget total 2016  (%  budget 2016)
+		Variable=H-1-d-4
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Type de financement (Recouvrement des coûts, prêt, subvention...)
+		Variable=H-1-d-5
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Sources de financement (Etat, population, Fonds mondial, MSF...)
+		Variable=H-1-e-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Dépenses 2015 en US$
+		Variable=H-1-e-2
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Budget 2016 en US$
+		Variable=H-1-e-3
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Budget total 2016  (%  budget 2016)
+		Variable=H-1-e-4
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Type de financement (Recouvrement des coûts, prêt, subvention...)
+		Variable=H-1-e-5
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Sources de financement (Etat, population, Fonds mondial, MSF...)
+		Variable=H-1-f-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Dépenses 2015 en US$
+		Variable=H-1-f-2
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Budget 2016 en US$
+		Variable=H-1-f-3
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Budget total 2016  (%  budget 2016)
+		Variable=H-1-f-4
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Type de financement (Recouvrement des coûts, prêt, subvention...)
+		Variable=H-1-f-5
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Sources de financement (Etat, population, Fonds mondial, MSF...)€µ
+		Variable=H-1-g-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Dépenses 2015 en US$
+		Variable=H-1-g-2
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Budget 2016 en US$
+		Variable=H-1-g-3
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Budget total 2016  (%  budget 2016)
+		Variable=H-1-g-4
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Type de financement (Recouvrement des coûts, prêt, subvention...)
+		Variable=H-1-g-5
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Est que les fonds disponibles sont en adéquation avec les quantités planifiées ?
+		Variable=H-2
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Si non pour quelles raisons
+		Variable=Si non pour quelles raisons
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si H-2 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-2 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=164
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=H.4.Les budgets alloués par l'état et les partenaires pour l'approvisionnement des médicaments et autres produits de santé incluent-ils une ligne budgétaire pour le financement des activités liées à la gestion des approvisionnements et à la distribution?
+		Variable=H-4-a
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-4-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Si oui, quel pourcentage?
+		Variable=H-4-a-2
+		Type=4
+		NbDécimales=5
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-4-a = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-4-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=166
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=H.5.Les partenaires/programmes verticaux prévoient-ils une ligne budgétaire pour le financement des activités et du personnel liées à la gestion des approvisionnements au niveau de votre structure ?
+		Variable=H-5
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Nom partenaire :
+		Variable=H-5-a-nompartenaire1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Stockage (bâtiment, équipement...)
+		Variable=H-5-a-activité financé partenaire1-1
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire1-1
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire1-1 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=171
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Distribution (véhicule...)
+		Variable=H-5-a-activité financé partenaire1-2
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire1-2
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire1-2 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=173
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Salaires du personnel
+		Variable=H-5-a-activité financé partenaire1-3
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire1-3
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire1-3 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=175
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Frais de gestion
+		Variable=H-5-a-activité financé partenaire1-4
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire1-4
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire1-4 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=177
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Formation du personnel
+		Variable=H-5-a-activité financé partenaire1-5
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire1-5
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire1-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=179
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Supervision
+		Variable=H-5-a-activité financé partenaire1-6
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire1-6
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire1-6 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=181
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Reprographie des outils de gestion
+		Variable=H-5-a-activité financé partenaire1-7
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire1-7
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire1-7 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=183
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Autres,  à préciser
+		Variable=H-5-a-activité financé partenaire1-8
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire1-8
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire1-8 = <Réponse effective>
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=185
+				Compris=2
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Nom partenaire :
+		Variable=H-5-a-nompartenaire2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées : Stockage (bâtiment, équipement...)
+		Variable=H-5-a-activité financé partenaire2-1
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire2-1
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire2-1 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=188
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Distribution (véhicule...)
+		Variable=H-5-a-activité financé partenaire2-2
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire2-2
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire2-2 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=190
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Salaires du personnel
+		Variable=H-5-a-activité financé partenaire2-3
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire2-3
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire2-3 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=192
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Frais de gestion
+		Variable=H-5-a-activité financé partenaire2-4
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire2-4
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire2-4 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=194
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Formation du personnel
+		Variable=H-5-a-activité financé partenaire2-5
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire2-5
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire2-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=196
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Supervision
+		Variable=H-5-a-activité financé partenaire2-6
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire2-6
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire2-6 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=198
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Reprographie des outils de gestion
+		Variable=H-5-a-activité financé partenaire2-7
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire2-7
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire2-7 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=200
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Autres,  à préciser
+		Variable=H-5-a-activité financé partenaire2-8
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire2-8
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire2-8 = <Réponse effective>
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=202
+				Compris=2
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Nom partenaire :
+		Variable=H-5-a-nompartenaire3
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées : Stockage (bâtiment, équipement...)
+		Variable=H-5-a-activité financé partenaire3-1
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire3-1
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire3-1 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=205
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Distribution (véhicule...)
+		Variable=H-5-a-activité financé partenaire3-2
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire3-2
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire3-2 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=207
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Salaires du personnel
+		Variable=H-5-a-activité financé partenaire3-3
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire3-3
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire3-3 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=209
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Frais de gestion
+		Variable=H-5-a-activité financé partenaire3-4
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire3-4
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire3-4 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=211
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Formation du personnel
+		Variable=H-5-a-activité financé partenaire3-5
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire3-5
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire3-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=213
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Supervision
+		Variable=H-5-a-activité financé partenaire3-6
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire3-6
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire3-6 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=215
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Reprographie des outils de gestion
+		Variable=H-5-a-activité financé partenaire3-7
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire3-7
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire3-7 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=217
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Autres,  à préciser
+		Variable=H-5-a-activité financé partenaire3-8
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire3-8
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire3-8 = <Réponse effective>
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=219
+				Compris=2
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Nom partenaire :
+		Variable=H-5-a-nompartenaire4
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées : Stockage (bâtiment, équipement...)
+		Variable=H-5-a-activité financé partenaire4-1
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire4-1
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire4-1 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=222
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Distribution (véhicule...)
+		Variable=H-5-a-activité financé partenaire4-2
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire4-2
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire4-2 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=224
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Salaires du personnel
+		Variable=H-5-a-activité financé partenaire4-3
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire4-3
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire4-3 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=226
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Frais de gestion
+		Variable=H-5-a-activité financé partenaire4-4
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire4-4
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire4-4 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=228
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Formation du personnel
+		Variable=H-5-a-activité financé partenaire4-5
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire4-5
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire4-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=230
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Supervision
+		Variable=H-5-a-activité financé partenaire4-6
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire4-6
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire4-6 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=232
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Reprographie des outils de gestion
+		Variable=H-5-a-activité financé partenaire4-7
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire4-7
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire4-7 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=234
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Activités financées du partenaire : Autres,  à préciser
+		Variable=H-5-a-activité financé partenaire4-8
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si H-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=H-5-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=169
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Si oui, précisez le % du montant total du financement
+		Variable=H-5-a-pourcentagefinancé-partenaire4-8
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-5-a-activité financé partenaire4-8 = <Réponse effective>
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5-a-activité financé partenaire1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=236
+				Compris=2
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=catégorie de produit
+		Variable=H-6-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Marge en %
+		Variable=H-6-1-1
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-6-1-2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=catégorie de produit
+		Variable=H-6-2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Marge en %
+		Variable=H-6-2-1
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-6-2-2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=catégorie de produit
+		Variable=H-6-3
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Marge en %
+		Variable=H-6-3-1
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-6-3-2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=catégorie de produit
+		Variable=H-6-4
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Marge en %
+		Variable=H-6-4-1
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-6-4-2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=catégorie de produit
+		Variable=H-6-5
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Marge en %
+		Variable=H-6-5-1
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-6-5-2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=catégorie de produit
+		Variable=H-6-6
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Marge en %
+		Variable=H-6-6-1
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-6-6-2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=catégorie de produit
+		Variable=H-6-7
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Marge en %
+		Variable=H-6-7-1
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-6-7-2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=catégorie de produit
+		Variable=H-6-8
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Marge en %
+		Variable=H-6-8-1
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-6-8-2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=catégorie de produit
+		Variable=H-6-9
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Marge en %
+		Variable=H-6-9-1
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-6-9-2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=catégorie de produit
+		Variable=H-6-10
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Marge en %
+		Variable=H-6-10-1
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-6-10-2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=a.	Paiement d'avance
+		Variable=H-7-a
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-7-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=b.A la date de livraison des produits
+		Variable=H-7-b
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-7-b-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=c.Après un délai de 30 jours
+		Variable=H-7-c
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-7-c-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=d.Au comptant
+		Variable=H-7-d
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-7-d-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=e.Au comptant
+		Variable=H-7-e
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-7-e-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=a.Sur le compte privé de la structure de santé
+		Variable=H-8-a
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-8-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=b.Sur le compte privé du comité de gestion communautaire
+		Variable=H-8-b
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-8-b-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=c.Au trésor public
+		Variable=H-8-c
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-8-c-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=d.Autre, à préciser
+		Variable=H-8-d
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-8-d-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=L'achat des médicaments
+		Variable=H-9-a
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Si oui, %
+		Variable=H-9-a-1
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-9-a = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-9-a = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=286
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-9-a-2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Le salaire du personnel
+		Variable=H-9-b
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Si oui en %
+		Variable=H-9-b-1
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-9-b = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-9-b = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=289
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-9-b-2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=d.Autre, à préciser
+		Variable=H-9-c
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=préciser le montant en pourcentage
+		Variable=H-9-c-1
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si H-9-c = <Réponse effective>
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-9-c <> ' '
+			Filtre
+				Opérateur=-1
+				Variable=292
+				Compris=2
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=H-9-c-2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=La part des recettes dédiée au renouvellement de stock est-elle généralement disponible?
+		Variable=H-10-1
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Sinon  , pour quelles raisons
+		Variable=H-10-2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si H-10-1 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-10-1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=295
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=K.1.Les données utilisées pour la quantification des besoins sont-elles disponibles à travers un système de gestion des informations logistiques (fiches de stock, logiciel…)?
+		Variable=I-1
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=I-1-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Si non, quelle procédure est utilisée pour obtenir et valider les données nécessaires à la quantification
+		Variable=I-2
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si I-1 = "Non"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=K-1 = "Non"
+			Filtre
+				Opérateur=-1
+				Variable=297
+				Compris=1
+				Modalités= 0 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Les quantités reçues
+		Variable=I-3-a
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=I-3-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Les consommations mensuelles moyennes
+		Variable=I-3-b
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=I-3-b-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Les périmés
+		Variable=I-3-c
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=I-3-c-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Le solde du stock
+		Variable=I-3-d
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=I-3-d-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Les délais de péremption
+		Variable=I-3-e
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=I-3-e-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Autres, à préciser
+		Variable=I-3-f
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=I-3-f-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Existe-t-il des rapports sur les informations logistiques ?
+		Variable=I-4-a
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=I-4-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=I.5.A qui sont transmis les rapports ?
+		Variable=I-5
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=à quelle fréquence
+		Variable=I-5-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Le dernier rapport a-t-il été envoyé à temps?
+		Variable=I-6
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=I-6-a
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Processus : Quantification
+		Variable=I-7-a
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=I-7-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Achat (Appel d'offre…)
+		Variable=I-7-b
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=I-7-b-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commande
+		Variable=I-7-c
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=I-7-c-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Gestion de stock
+		Variable=I-7-d
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=I-7-d-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Distribution
+		Variable=I-7-e
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=I-7-e-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Gestion financière
+		Variable=I-7-f
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=I-7-f-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Autres, à préciser
+		Variable=I-7-g
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=I-7-g-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=K.8.Existe-t-il un système de gestion des informations logistiques spécifiques pour les produits financés par les partenaires?
+		Variable=K-8
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=K-8-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si K-8 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=K-8 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=332
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=J.1 La centrale d'achat effecte-t-elle des supervisions de ses clients ?
+		Variable=J-1
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Si oui , à quelle fréquence ?
+		Variable=J-2
+		Type=4
+		NbDécimales=2
+		TypeNombre=4
+		Consigne=La question n'est pertinente que si J-1 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-1 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=334
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Revue des procèdures de quantification des besoins
+		Variable=J-3-a
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=J-3-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Revue des procèdures de commandes
+		Variable=J-3-b
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=J-3-b-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Vérification des conditions de stockage
+		Variable=J-3-c
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=J-3-c-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Inventaire physique
+		Variable=J-3-d
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=J-3-d-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Vérification des fiches de stock et des rapports
+		Variable=J-3-e
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=J-3-e-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Vérification financière
+		Variable=J-3-f
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=J-3-f-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Evaluation des besoins pour l'améliorer les performances
+		Variable=J-3-g
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=J-3-g-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Formation
+		Variable=J-3-h
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=J-3-h-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Autre , à préciser
+		Variable=J-3-i
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=J-3-i-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=La fréquences des supervisions est-elle respecté ?
+		Variable=J-4
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=34
+	Fin
+	Question
+		Libellé=Si 'Non', pourquoi  :
+		Variable=J-4_AUTRE
+		Type=6
+		NbLignes=0
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Existe-t-il u système de supervision spécifique pour les produits financé par les partenaires
+		Variable=J-5
+		Type=1
+		NbModalités=3
+		Modalités=Oui ; Non ; Na ;
+		Pondérations= 0 1 0 -1
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Si oui , décrivez brièvement le système de supervision et les activités surpervisé
+		Variable=J-5-a
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Consigne=La question n'est pertinente que si J-5 = "Oui"
+		Plan=1
+		Attributs=96
+		Restriction
+			Nom=J-5 = "Oui"
+			Filtre
+				Opérateur=-1
+				Variable=356
+				Compris=1
+				Modalités= 0 1
+				Numérique=0
+			Fin
+		Fin
+	Fin
+	Question
+		Libellé=Indicateur de performance : Taux de rupture
+		Variable=J-6-a
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=J-6-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Indicateur de performance : Nombre de jours de rupture
+		Variable=J-6-b
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=J-6-b-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Indicateur de performance :  % des périmés
+		Variable=J-6-c
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=J-6-c-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Indicateur de performance :  % de dispensation incomplète
+		Variable=J-6-d
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=J-6-d-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Indicateur de performance :  % de dispensation erronée
+		Variable=J-6-e
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=J-6-e-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Indicateur de performance :  %Taux de recouvrement
+		Variable=J-6-f
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=J-6-f-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=J-7.Existe-t-il des indicateurs et des outils de suivi-évaluation du système d'approvisionnement spécifiques pour les partenaires
+		Variable=J-7-a
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaires
+		Variable=J-7-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Nombre  (de Pharmacien)
+		Variable=K-1-a
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Suffisant (pharmacien)
+		Variable=K-1-a-1
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Fonctionnaire (pharmacien)
+		Variable=K-1-a-2
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaire ( pharmacien )
+		Variable=K-1-a-3
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Nombre  (Médecin)
+		Variable=K-1-b
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Suffisant (Médecin)
+		Variable=K-1-b-1
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Fonctionnaire (Médecin)
+		Variable=K-1-b-2
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaire ( Médecin )
+		Variable=K-1-b-3
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Nombre  (Assistant médical)
+		Variable=K-1-c
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Suffisant (Assistant médical)
+		Variable=K-1-c-1
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Fonctionnaire (Médecin)
+		Variable=K-1-c-2
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaire ( Médecin )
+		Variable=K-1-c-3
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Nombre  (Préparateur en pharmacie)
+		Variable=K-1-d
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Suffisant (Préparateur en pharmacie)
+		Variable=K-1-d-1
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Fonctionnaire (Préparateur en pharmacie)
+		Variable=K-1-d-2
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaire ( Préparateur en pharmacie )
+		Variable=K-1-d-3
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Nombre  (Infirmier)
+		Variable=K-1-e
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Suffisant (Infirmier)
+		Variable=K-1-e-1
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Fonctionnaire (Infirmier)
+		Variable=K-1-e-2
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaire ( Infirmier )
+		Variable=K-1-e-3
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Nombre  (Informaticien)
+		Variable=K-1-f
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Suffisant (Informaticien)
+		Variable=K-1-f-1
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Fonctionnaire (Informaticien)
+		Variable=K-1-f-2
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaire ( Informaticien )
+		Variable=K-1-f-3
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Nombre  (Agent administratif)
+		Variable=K-1-g
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Suffisant (Agent administratif)
+		Variable=K-1-g-1
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Fonctionnaire (Agent administratif)
+		Variable=K-1-g-2
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaire ( Agent administratif )
+		Variable=K-1-g-3
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Autres, à préciser la catégorie professionnel
+		Variable=K-1-h-0
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Nombre  (Autres, à préciser)
+		Variable=K-1-h
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Suffisant (Autres, à préciser)
+		Variable=K-1-h-1
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Fonctionnaire (Autres, à préciser)
+		Variable=K-1-h-2
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaire ( Autres, à préciser )
+		Variable=K-1-h-3
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Le personnel impliqué dans les activités d'achat et d'approvisionnement ont-ils reçu une formation initiale à la gestion des approvisionnements ?
+		Variable=K-2-a
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaire
+		Variable=K-2-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=K.3.	 Le personnel impliqué dans les activités d'achat et d'approvisionnement bénéficie-t-il d'une formation continue régulière à la gestion des approvisionnements?
+		Variable=K-3-a
+		Type=1
+		NbModalités=2
+		Modalités=Oui ; Non ;
+		Pondérations= 0 1 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Commentaire
+		Variable=K-3-a-1
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+Fin
+Titres
+	Titre
+		Type=0
+		Libellé=E.7 Si non , classer  par ordre de priorité les 3 principaux problèmes rencontré lors de la livraison/collect des médicaments et produits de santé ?
+		Première=4
+	Fin
+	Titre
+		Type=0
+		Libellé=E.9 Si oui , quelles sont parmi les catégories de produit suivants celles qui ont un système distribution spécifique ?
+		Première=30
+	Fin
+	Titre
+		Type=0
+		Libellé=F. SYSTEME D'ASSURANCE QUALITE
+		Première=40
+	Fin
+	Titre
+		Type=0
+		Libellé=F.1 Quels sont les critères pour garentir la qualité des médicaments acheté ?
+		Première=40
+	Fin
+	Titre
+		Type=0
+		Libellé=F.2 Parmi les produits suivants achetés en 2015 , à quels critères de qualité sont-ils conformes
+		Première=50
+	Fin
+	Titre
+		Type=0
+		Libellé=F.6  Quelle structure est utilisée pour le côntrole de la qualité des produits achetés
+		Première=60
+	Fin
+	Titre
+		Type=0
+		Libellé=F.7 Le laboratoire utilisée pour le côntrole de qualité des produits est-il
+		Première=68
+	Fin
+	Titre
+		Type=0
+		Libellé=F.9 La centrale d'achat dispose-t-elle d(une procédure écrite pour les processus suivants ? si oui loindre une copie
+		Première=78
+	Fin
+	Titre
+		Type=0
+		Libellé=G. USAGE RATIONNEL
+		Première=116
+	Fin
+	Titre
+		Type=0
+		Libellé=G.1 Quelles sont les sources d'information pharmaceutique disponibles à la centrale d'achat ?
+		Première=116
+	Fin
+	Titre
+		Type=0
+		Libellé=H.1 Quelles sont les sources de financements dont dispose la centrale d'achat pour l'approvisionnement des catégories de produits suivants ?
+		Première=129
+	Fin
+	Titre
+		Type=0
+		Libellé=H.2
+		Première=164
+	Fin
+	Titre
+		Type=0
+		Libellé=H.5
+		Première=169
+	Fin
+	Titre
+		Type=0
+		Libellé=Dans le cas d'un système de recovrement des coûts , répondre aux question n°J6 à n°J10   ; Sinon passer à la section K
+		Première=238
+	Fin
+	Titre
+		Type=0
+		Libellé=H.6 Qelles sont les marges appliquées par la centrale d'achat sur les catégories de produits suivants
+		Première=238
+	Fin
+	Titre
+		Type=0
+		Libellé=H.7 Quelles sont les conditions de paiement exigées par la centrale d'achat vis à vis de ses clients
+		Première=268
+	Fin
+	Titre
+		Type=0
+		Libellé=H.8 Où sont versés les recettes du recouvrement des coûts
+		Première=278
+	Fin
+	Titre
+		Type=0
+		Libellé=H.9 Quelles sont les dépenses financées par les recettes issues du recouvrement des coûts ?
+		Première=286
+	Fin
+	Titre
+		Type=0
+		Libellé=H.10
+		Première=295
+	Fin
+	Titre
+		Type=0
+		Libellé=I GESTION DE L'INFORMATION
+		Première=297
+	Fin
+	Titre
+		Type=0
+		Libellé=I.2
+		Première=299
+	Fin
+	Titre
+		Type=0
+		Libellé=I.3 Qelles sont les informations logistiques mesuré en continue sur la centrale d'achat
+		Première=300
+	Fin
+	Titre
+		Type=0
+		Libellé=I.4
+		Première=312
+	Fin
+	Titre
+		Type=0
+		Libellé=I.5
+		Première=314
+	Fin
+	Titre
+		Type=0
+		Libellé=I.6
+		Première=316
+	Fin
+	Titre
+		Type=0
+		Libellé=I.7 Les processus suivants sont-ils gérées à l'aide d'un logiciel informatique
+		Première=318
+	Fin
+	Titre
+		Type=0
+		Libellé=K.8
+		Première=332
+	Fin
+	Titre
+		Type=0
+		Libellé=J. SUIVI-EVALUATION
+		Première=334
+	Fin
+	Titre
+		Type=0
+		Libellé=Quels types d'activités sont effectués lors des visites de supervision ?
+		Première=336
+	Fin
+	Titre
+		Type=0
+		Libellé=Type d'activités
+		Première=336
+	Fin
+	Titre
+		Type=0
+		Libellé=J.4 
+		Première=354
+	Fin
+	Titre
+		Type=0
+		Libellé=J.5
+		Première=356
+	Fin
+	Titre
+		Type=0
+		Libellé=J.6 Quels indicateurs de performance sont mésurés en continu par la centrale d'achat?  
+		Première=358
+	Fin
+	Titre
+		Type=0
+		Libellé=J-7
+		Première=370
+	Fin
+	Titre
+		Type=0
+		Libellé=K. RESSOURCES HUMAINES
+		Première=372
+	Fin
+	Titre
+		Type=0
+		Libellé=K.1 Quel est le nombre de personnel des catégories professionnelles suivants impliqué dans les activités d'achat et d'approvisionnement 
+		Première=372
+	Fin
+	Titre
+		Type=0
+		Libellé=K.2
+		Première=405
+	Fin
+	Titre
+		Type=0
+		Libellé=K.3
+		Première=407
+	Fin
+Fin
+Options
+	GroupesActifs=1
+	RenvoisActifs=1
+	ControlesActifs=1
+Fin
